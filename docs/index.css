@@ -1,0 +1,83 @@
+.video-content{
+    width: 18rem;
+    height:18rem;
+    background-color: black;
+    
+}
+
+.video-div{
+    margin-right: 10px;
+}
+
+.postion-content{
+    position: absolute;
+    margin-top: 50px;
+    
+    
+}
+
+.btn-content{
+  /* position: relative;
+ top: 650px;
+ margin-bottom: 50px; */
+}
+
+.two,.three,.four,.five,.six,.seven,.eight{
+    visibility: hidden;
+}
+
+
+
+.button-click{
+    font-family: 'Poppins';
+    color: rgb(255, 255, 255) !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    background:gray;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    margin-right: 20px;
+  }
+  
+  .button-click:hover {
+    text-shadow: 0px 0px 6px rgb(255, 243, 22);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+  }
+
+  .i{
+    
+    margin-top: 10px;
+  }
+
+  .section-last{
+     
+height: 740px;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+    
+  }
+
+
+  @media only screen and    (max-width:700px) {
+      .video-content{
+          width: 10rem;
+          height: 10rem;
+      }
+      .button-click{
+          margin-right:0;
+      }
+     .section-last{
+        height: 400px;
+     }
+  }
+
+  .f{
+      padding: 0 !important;
+  }
